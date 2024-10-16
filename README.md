@@ -22,6 +22,7 @@ Step 6:
 Plot the true and estimated positions.<BR>
 
 <H3>Program:</H3>
+
 ```
 import numpy as np
 class KalmanFilter:
@@ -46,7 +47,7 @@ class KalmanFilter:
     self.x = self.x + np.dot(K, y)
 ```
 
-
+```
 # Example usage:
 # Assume we want to track the position and velocity of a moving object
 # with a state vector of [position, velocity] and a single scalar measurement
